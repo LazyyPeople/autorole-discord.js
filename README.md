@@ -1,9 +1,9 @@
 # autorole-discordJS
 
-### INSTALL
+### Package
 + npm install discord.js
 + npm install quick.db
 
-#### How to use?
+### How to use?
 + !autorole set #channel
 + !autorole on 
