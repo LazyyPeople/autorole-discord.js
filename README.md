@@ -7,3 +7,6 @@
 ### How to use?
 + !autorole set #channel
 + !autorole on 
+
+### Note
++ djs 12
