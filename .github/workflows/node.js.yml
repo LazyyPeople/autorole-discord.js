@@ -20,9 +20,9 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
     - name: Use Node.js ${{ matrix.node-version }}
     - name: Install dependencies
-    
-    - run: yarn --immutable
-    - run: yarn build
+      run: yarn --immutable
+    - name: build
+      run: yarn build
