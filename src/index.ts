@@ -1,5 +1,5 @@
 import { Intents, Message } from 'discord.js';
-import db from './database/index';
+import db from './data/index';
 import { Bot } from './structures/Client';
 
 const client = new Bot({
