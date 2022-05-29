@@ -1,5 +1,5 @@
 import { ClientOptions, Client } from 'discord.js';
-import db from '../database/index';
+import db from '../data/index';
 
 export class Bot extends Client {
     public constructor(options: ClientOptions) {
