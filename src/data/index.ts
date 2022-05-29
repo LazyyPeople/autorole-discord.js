@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-const pathBase = './database.json';
+const pathBase = './data.json';
 
 function set(name: string, value: any) {
     let obj = {
